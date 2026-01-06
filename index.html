@@ -5,17 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Brandoom - Marketing Digital</title>
     <link rel="stylesheet" href="styles.css" />
+    <script src="scripts.js" defer></script>
     <link rel="shortcut icon" href="img/logo.png" type="image/x-icon" />
   </head>
   <body>
     <header>
       <nav>
         <ul>
-          <li><a href="#">Sobre</a></li>
-          <li><a href="#">Especialização</a></li>
-          <li><a href="#">Proposta</a></li>
-          <li><a href="#">Cronograma</a></li>
-          <li><a href="#">Contato</a></li>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#solutions">Especialização</a></li>
+          <li><a href="#proposta">Proposta</a></li>
+          <li><a href="#cronograma">Cronograma</a></li>
+          <li><a href="#contato">Contato</a></li>
         </ul>
       </nav>
     </header>
@@ -36,9 +37,9 @@
       </section>
     </main>
 
-    <section class="sobre">
+    <section id="sobre">
       <img src="img/fundosobre.png" alt="imagem de fundo" class="fundo-sobre" />
-      <div class="texts">
+      <div class="texts reveal from-left delay-1">
         <div class="top-texts">
           <h1 class="title-sobre">Sobre nós</h1>
           <h1 class="title-marketing">
@@ -65,49 +66,49 @@
           <p class="p3">Somos a sua Agência de Marketing Digital!</p>
         </div>
       </div>
-      <div class="right-images">
+      <div class="right-images reveal fade delay-3">
         <img src="img/sobrenos.png" alt="" class="sobre-img" />
         <img src="img/sobrenos2.png" alt="" class="sobre-img2" />
       </div>
     </section>
 
-    <section class="solutions">
+    <section id="solutions">  
       <img src="img/fundofazemos.png" alt="" class="fundo-solutions" />
-      <div class="titles-solutions">
+      <div class="titles-solutions reveal from-left delay-1">
         <h1>Especializações</h1>
         <h2>nossas soluções</h2>
       </div>
       <div class="imgs-top">
-        <div class="container-desenv">
+        <div class="container-desenv reveal from-bottom delay-2">
           <img src="img/desenvolvimento.png" alt="" class="desenv" />
           <h3>desenvolvimento</h3>
           <p>Websites, landing pages, aplicativos, advertoriais</p>
         </div>
-        <div class="container-design">
+        <div class="container-design reveal from-bottom delay-3">
           <img src="img/desing.png" alt="" class="design" />
           <h3>design gráfico</h3>
           <p>Websites, landing pages, aplicativos, advertoriais</p>
         </div>
-        <div class="container-redes">
+        <div class="container-redes reveal from-bottom delay-4">
           <img src="img/redes.png" alt="" class="redes" />
           <h3>redes sociais</h3>
           <p>Produção de conteúdo, monitoramento e gerenciamento</p>
         </div>
       </div>
       <div class="imgs-bottom">
-        <div class="container-estrategia">
+        <div class="container-estrategia reveal from-bottom delay-5">
           <img src="img/estrategia.png" alt="" class="estrategia" />
           <h3>estratégia</h3>
           <p>Equipe de pesquisa e estratégia para a sua marca</p>
         </div>
-        <div class="container-omini">
+        <div class="container-omini reveal from-bottom delay-6">
           <img src="img/imnichanell.png" alt="" class="omini" />
           <h3>ominichanell</h3>
           <p>
             Presença em todos os canais digitais para alcance de público alvo
           </p>
         </div>
-        <div class="container-promo">
+        <div class="container-promo reveal from-bottom delay-7">
           <img src="img/promo.png" alt="" class="promo" />
           <h3>promoções e eventos</h3>
           <p>Mais engajamento com a sua marca através de estratégias offline</p>
@@ -115,64 +116,67 @@
       </div>
     </section>
 
-    <section class="proposta">
+    <section id="proposta">
       <div class="left-texts">
-        <h1 class="title-proposta">Poposta</h1>
-        <h1 class="h1-proposta">
+        <h1 class="title-proposta reveal fade delay-1">Poposta</h1>
+        <h1 class="h1-proposta reveal from-left delay-1">
           <span class="description">descrição de</span><br />
           <span class="product">produtos e serviços</span>
         </h1>
-        <p class="subtitle">
+        <p class="subtitle reveal fade delay-3">
           descrição dos produtos e serviços a serem contratados
         </p>
-        <ul class="ul-proposta">
+        <ul class="ul-proposta reveal from-bottom delay-3">
           <li>• gestão de midias sociais</li>
           <li>• criação de página de captura</li>
           <li>• criação de advertorial</li>
           <li>• criação de vídeos</li>
           <li>• gestão de tráfego</li>
         </ul>
-        <p class="email-proposta">
+        <p class="email-proposta reveal from-bottom delay-3">
           Havendo alguma necessidade de alteração enviar para:
           <strong>brandoom@marketing.com</strong>
         </p>
       </div>
       <div class="imgs-proposta">
-        <img src="img/proposta1.png" alt="" class="proposta1" />
-        <img src="img/proposta2.png" alt="" class="proposta2" />
+        <img src="img/fundoproposta.png" alt="" class="fundo-proposta reveal fade delay-2" />
+        <div class="reveal fade delay-4">
+          <img src="img/proposta1.png" alt="" class="proposta1" />
+          <img src="img/proposta2.png" alt="" class="proposta2" />
+        </div>
       </div>
     </section>
 
-    <section class="cronograma">
+    <section id="cronograma">
       <img src="img/fundocrono.png" alt="fundocrono" class="fundo-cronograma" />
       <div class="top-container">
-        <h1 class="title-cronograma">Cronograma e Prazos</h1>
-        <h1 class="h1-cronograma">
+        <h1 class="title-cronograma reveal from-left delay-1">Cronograma e Prazos</h1>
+        <h1 class="h1-cronograma reveal fade delay-4">
           <span class="linha">linha do</span><br />
           <span class="tempo">tempo</span>
         </h1>
-        <p>
+        <p class="reveal fade delay-4">
           Linha do tempo para as atividades e iniciativas de marketing que trará
           sucesso a campanha.
         </p>
       </div>
       <div class="bottom-container">
-        <div class="junho">
+        <div class="junho reveal from-top delay-4">
           <img src="img/calendario.png" alt="" />
           <h1 class="h1-junho">junho</h1>
           <p class="p-junho">Pesquisa de mercado</p>
         </div>
-        <div class="julho">
+        <div class="julho reveal from-top delay-5">
           <img src="img/calendario.png" alt="" />
           <h1 class="h1-julho">julho</h1>
           <p class="p-julho">Apresentação de soluções de marketing</p>
         </div>
-        <div class="agosto">
+        <div class="agosto reveal from-top delay-6">
           <img src="img/calendario.png" alt="" />
           <h1 class="h1-agosto">agosto</h1>
           <p class="p-agosto">Execução de estratégias</p>
         </div>
-        <div class="setembro">
+        <div class="setembro reveal from-top delay-7">
           <img src="img/calendario.png" alt="" />
           <h1 class="h1-setembro">setembro</h1>
           <p class="p-setembro">Avaliação de resultados</p>
@@ -180,19 +184,19 @@
       </div>
     </section>
 
-    <section class="contato">
-      <img src="img/fundocontato.png" alt="fundo" class="fundo-contato" />
-      <div class="left-contato">
+    <footer id="contato">
+      <img src="img/fundocontato.png" alt="fundo" class="fundo-contato reveal fade delay-2" />
+      <div class="left-contato reveal fade delay-2">
         <div class="duvidas">
           <h1 class="title-cronograma">Dúvidas?</h1>
           <h1 class="h1-contato">fale com <br />a gente</h1>
         </div>
       </div>
-      <div class="middle-contato">
+      <div class="middle-contato reveal fade delay-2">
         <div class="info">
           <h2 class="h2-email">email</h2>
           <p class="email-contato">
-            <a href="malito:brandoom@marketing.com">brandoom@marketing.com</a>
+            <a href="mailto:brandoom@marketing.com">brandoom@marketing.com</a>
           </p>
           <h2 class="h2-redes">redes sociais</h2>
           <p class="midias-contato"><a href="#">@brandoom_marketing</a></p>
@@ -206,9 +210,12 @@
           </p>
         </div>
       </div>
-      <div class="right-contato">
+      <div class="right-contato reveal fade delay-2">
         <img src="img/logo.png" alt="" class="img-contato" />
       </div>
-    </section>
+      <div class="footer-copy reveal fade delay-3">
+        © 2026 Davi Maximo Quoos — Todos os direitos reservados.
+      </div>
+    </footer>
   </body>
 </html>
