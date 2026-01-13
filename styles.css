@@ -743,10 +743,7 @@ main {
 /*---RESPONSIVIDADE---*/
 
 @media (max-width: 480px) {
-  nav {
-    display: none;
-  }
-
+  
   .left-images {
     display: none;
   }
