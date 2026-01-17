@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
@@ -10,14 +10,20 @@
   </head>
   <body>
     <header>
-      <nav>
-        <ul>
-          <li><a href="#sobre">Sobre</a></li>
-          <li><a href="#solutions">Especialização</a></li>
-          <li><a href="#proposta">Proposta</a></li>
-          <li><a href="#cronograma">Cronograma</a></li>
-          <li><a href="#contato">Contato</a></li>
-        </ul>
+      <nav class="navbar">
+        <button class="hamburger" aria-label="Abrir menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <div class="mobile-menu">
+          <a href="#sobre">Sobre</a>
+          <a href="#solutions">Especialização</a>
+          <a href="#proposta">Proposta</a>
+          <a href="#cronograma">Cronograma</a>
+          <a href="#contato">Contato</a>
+        </div>
       </nav>
     </header>
 
@@ -148,9 +154,9 @@
         </div>
       </div>
       <p class="email-proposta-mob reveal from-bottom delay-3">
-          Havendo alguma necessidade de alteração enviar para:
-          <strong>brandoom@marketing.com</strong>
-        </p>
+        Havendo alguma necessidade de alteração enviar para:
+        <strong>brandoom@marketing.com</strong>
+      </p>
     </section>
 
     <section id="cronograma">
@@ -193,7 +199,7 @@
     </section>
 
     <footer id="contato">
-      <img src="img/fundocontatomob.png" alt="" class="fundo-contato-mob">
+      <img src="img/fundocontatomob.png" alt="" class="fundo-contato-mob" />
       <img
         src="img/fundocontato.png"
         alt="fundo"
