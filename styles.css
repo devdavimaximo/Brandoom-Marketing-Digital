@@ -535,6 +535,10 @@ main {
   transform: translateY(-50%) rotate(-10deg);
 }
 
+.email-proposta-mob {
+  display: none;
+}
+
 /*---CRONOGRAMA---*/
 
 #cronograma {
@@ -961,7 +965,6 @@ main {
   .fundo-proposta {
     position: relative;
     top: auto;
-    right: auto;
     transform: none;
     height: 350px;
     opacity: 0.4;
@@ -993,4 +996,88 @@ main {
     font-size: 0.85rem;
     line-height: 1.4;
   }
+
+  /* proposta */
+
+#cronograma {
+  padding: 3rem 1.5rem 4rem;
+  min-height: auto;
+  justify-content: flex-start;
+}
+
+.fundo-cronograma {
+  position: absolute;
+  top: 55%;
+  transform: translateY(-50%);
+  height: 300px;
+}
+
+.top-container {
+  width: 100%;
+}
+
+.title-cronograma {
+  margin: 0 0 1rem 0;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.h1-cronograma {
+  margin: 0 0 1.5rem 0;
+  font-size: 2.3rem;
+  line-height: 1.1;
+}
+
+.linha {
+  display: inline-block;
+  padding: 0.7rem 1rem 0.2rem;
+  border-radius: 6px 6px 0 0;
+}
+
+.tempo {
+  display: inline-block;
+  padding: 0.2rem 1rem 0.7rem;
+  border-radius: 0 0 6px 6px;
+}
+
+.top-container p {
+  margin: 1.2rem 0 2.5rem;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  max-width: 100%;
+}
+
+.bottom-container {
+  margin-top: 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2.5rem 1.5rem;
+  justify-items: center;
+}
+
+.bottom-container > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  max-width: 140px;
+}
+
+.bottom-container img {
+  height: 70px;
+}
+
+.bottom-container h1 {
+  font-size: 1rem;
+  margin: 0.5rem 0 0.3rem;
+}
+
+.bottom-container p {
+  font-size: 0.85rem;
+  line-height: 1.4;
+}
+
+/* footer */
+
+
 }
