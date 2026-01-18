@@ -644,6 +644,10 @@ main {
   object-fit: cover;
 }
 
+.fundo-contato-mob {
+  display: none;
+}
+
 #contato {
   position: relative;
   display: flex;
