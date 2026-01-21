@@ -1,4 +1,4 @@
-@media (min-width: 100px) and (max-width: 1365px) {
+@media (min-width: 100px) and (max-width: 1024px) {
   /*main*/
 
   .left-images {
@@ -557,4 +557,42 @@
   .solutions-grid {
     gap: 2rem 0;
   }
+  
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+  nav {
+    margin: 0;
+    padding: 15px 0;
+  }
+  .dev {
+    display: none;
+  }
+
+  .menu-desktop {
+    display: flex;
+    gap: 1.3rem;
+    margin: 0 auto;
+  }
+
+  .menu-desktop a {
+    font-size: 1.5rem;
+  }
+
+  .hamburger {
+    display: none;
+  }
+
+  .logo-mobile {
+    display: none;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1351px) {
+
+  .triangulo, .triangulo2 {
+    height: 450px;
+  }
+
 }
