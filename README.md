@@ -19,27 +19,22 @@ A ideia por trás do nome é transmitir o conceito de fazer marcas crescerem, ga
 O projeto foi desenvolvido utilizando tecnologias web fundamentais, com foco em organização, performance e responsividade:
 
 HTML5 — Estrutura semântica do site
+
 CSS3 — Estilização completa dividida por responsabilidades:
+
 base.css — Reset, estilos globais e tipografia
+
 layout.css — Estrutura e layout das seções
+
 animations.css — Animações e efeitos visuais
+
 responsive.css — Responsividade para tablets e dispositivos móveis
+
 JavaScript (Vanilla JS) — Interações e animações dinâmicas
+
 Google Fonts — Tipografia personalizada
+
 Vercel — Deploy e hospedagem
-
-✨ Principais Funcionalidades
-
-Navegação fixa com menu responsivo (hamburger menu)
-Animações com Intersection Observer (efeito reveal ao rolar a página)
-Layout totalmente responsivo
-Seções bem definidas:
-Sobre nós
-Especializações / Soluções
-Proposta de serviços
-Cronograma
-Contato
-Código organizado e modularizado (HTML, CSS e JS separados)
 
 🎯 Objetivo do Projeto
 
