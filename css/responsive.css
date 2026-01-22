@@ -589,10 +589,109 @@
   }
 }
 
+@media (min-width: 1025px) and (max-width: 1250px) {
+
+  .bottom-texts p{
+    font-size: 1.2rem
+  }
+
+  .sobre-img {
+    height: 270px;
+    top: 250px;
+  }
+
+  .sobre-img2 {
+    height: 340px;
+  }
+
+  #solutions {
+    overflow-x: hidden;
+  }
+
+  .solutions-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    max-width: 100%;
+    padding: 0 2rem;
+  }
+
+  .solutions-grid > div {
+    width: 100%;
+    max-width: 360px;
+  }
+
+  .solutions-grid p {
+    max-width: 100%;
+    font-size: 1.1rem;
+  }
+
+}
+
 @media (min-width: 1025px) and (max-width: 1351px) {
 
-  .triangulo, .triangulo2 {
-    height: 450px;
+  .title-marketing {
+    font-size: 3rem;
+  }
+
+  .h1-proposta {
+    font-size: 2rem;
+  }
+
+  .email-proposta {
+    font-size: 0.8rem
+  }
+
+  .fundo-proposta {
+    height: 500px;
+  }
+
+  .proposta1 {
+    height: 270px;
+  }
+
+  .proposta2 {
+    height: 200px;
+  }
+
+  .title-cronograma {
+    font-size: 2rem;
+  }
+
+  .h1-cronograma {
+    font-size: 2.7rem;
+  }
+
+  .top-container p {
+    font-size: 1.3rem;
+  }
+
+  #cronograma img {
+    height: 90px;
+  }
+
+  .bottom-container {
+    gap: 2rem;
+  }
+
+  .bottom-container p {
+    font-size: 1rem;
+  }
+
+  .title-cronograma {
+    font-size: 2rem
+  }
+
+  .h1-contato {
+    font-size: 2rem;
+  }
+
+  .fundo-contato {
+    position: absolute;
+    right: 0;
+  }
+
+  .right-contato img {
+    height: 230px;
   }
 
 }
