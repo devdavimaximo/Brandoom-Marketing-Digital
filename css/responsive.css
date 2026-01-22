@@ -1,8 +1,14 @@
 @media (min-width: 100px) and (max-width: 1024px) {
   /*main*/
 
+  :root {
+    --nav-height-desktop: 72px;
+    --nav-height-mobile: 64px;
+  }
+
   main {
-    margin-top: 64px;
+    margin-top: var(--nav-height-desktop);
+    height: calc(100svh - var(--nav-height-desktop));
   }
 
   .left-images {
